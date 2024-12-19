@@ -1,8 +1,8 @@
 import React, { useState }from "react";
 import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route, Navigate } from "react-router-dom"
 import Root, { ROUTES } from "./components/root/Root";
-import { AppointmentsPage } from "./containers/appointmentsPage/AppointmentsPage";
-import { ContactsPage } from "./containers/contactsPage/ContactsPage";
+import AppointmentsPage  from "./containers/appointmentsPage/AppointmentsPage";
+import ContactsPage from "./containers/contactsPage/ContactsPage";
 
 function App() {
   // 2.1 Keep track of the contacts and appointments data, each being an array of objects
