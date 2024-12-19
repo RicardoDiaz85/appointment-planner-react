@@ -52,7 +52,7 @@ function App() {
           path={ROUTES.APPOINTMENTS} 
           element={ 
             <AppointmentsPage 
-              appointmens={appointments} // Pass the current list of appointments as a prop to AppointmentsPage
+              appointments={appointments} // Pass the current list of appointments as a prop to AppointmentsPage
               contacts={contacts} // Pass the current list of contacts as a prop to AppointmentsPage
               addAppointment={addAppointment} // Pass the function to add a new appointment as a prop to AppointmentsPage
             /> 
