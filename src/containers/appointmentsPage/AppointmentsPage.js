@@ -6,7 +6,7 @@ import AppointmentForm from "../../components/appointmentForm/AppointmentForm";
 import TileList from "../../components/tileList/TileList";
 
 // Stateful AppointmentsPage component
-export const AppointmentsPage = ({ appointments, contacts, addAppointment }) => {
+const AppointmentsPage = ({ appointments, contacts, addAppointment }) => {
   // State variables for the form fields, initialized as empty strings
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
@@ -56,3 +56,5 @@ export const AppointmentsPage = ({ appointments, contacts, addAppointment }) => 
     </div>
   );
 };
+
+export default AppointmentsPage;
