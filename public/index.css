@@ -27,7 +27,7 @@ h2 {
   font-size: 18px;
   color: #000000;
   margin: 0;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 section {
@@ -75,6 +75,11 @@ select {
   margin: 0;
   font-size: 14px;
   margin-bottom: 4px;
+}
+
+.tile-title {
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 .tile.tile-title {
