@@ -27,7 +27,7 @@ const ContactForm = ({
         placeholder="Phone (e.g., 123-456-7890)"
         value={phone}             // Controlled input bound to the 'phone' state
         onChange={(e) => setPhone(e.target.value)} // Updates 'phone' state on change
-        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"       // Pattern for a phone number format like 123-456-7890
+        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"       // Pattern for a phone number format like 123-456-7890
         required                  // Makes the field mandatory
       />
 
